@@ -1,0 +1,11 @@
+{
+  "name": "trending",
+  "version": "1.0.0",
+  "description": "This package will be for my trending website I'm building while I take the Udemy Web Development course",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "CMWolfe",
+  "license": "ISC"
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Lists</title>
+</head>
+<body>
+    <nav class="equities-main-nav">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="marketInfo.html">Market Information</a></li>
+            <li><a href="equities.html">Equities</a></li>
+            <li><a href="about.html">Site Information</a></li>
+        </ul>
+    </nav>
+<!-- This page is to learn about tables. We are learning about <table> <th>,
+    <tr>, and <td>==>table data cell -->
+    <main class="equities-main-section">
+        <h1>Companies to Research and Track</h1>
+        <div class="table-of-companies">
+            <table>
+                <!-- Now we will add thead, tbody, and tfoot. These just break up the 
+                table into logical sections -->
+                <tr>
+                    <thead>
+                        <th>Company</th>
+                        <th>Symbol</th>
+                        <th>Sector</th>
+                        <th>Current News</th>
+                    </thead>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>Facebook</td>
+                        <td>FB</td>
+                        <td>Tech, Social</td>
+                        <td><a href="https://finance.yahoo.com/quote/FB/key-statistics?p=FB">Click for News</a></td>
+                    </tr>
+                    <tr>
+                        <td>Apple</td>
+                        <td>AAPL</td>
+                        <td>Tech, Manufacturer</td>
+                        <td><a href="https://finance.yahoo.com/quote/AAPL/key-statistics?p=AAPL">Click for News</a></td>
+                    </tr>
+                    <tr>
+                        <td>Amazon</td>
+                        <td>AMZN</td>
+                        <td>Retail, Tech</td>
+                        <td><a href="https://finance.yahoo.com/quote/AMZN/key-statistics?p=AMZN">Click for News</a></td>
+                    </tr>
+                    <tr>
+                        <td>Netflix</td>
+                        <td>NFLX</td>
+                        <td>Streaming Media</td>
+                        <td><a href="https://finance.yahoo.com/quote/NFLX/key-statistics?p=NFLX">Click for News</a></td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>GOOGL</td>
+                        <td>IoT, Tech, Software</td>
+                        <td><a href="https://finance.yahoo.com/quote/GOOGL/key-statistics?p=GOOGL">Click for News</a></td>
+                    </tr>
+                </tbody>
+<!-- If I wanted to combine table rows or columns I could use rowspan= and colspan= to manipulate 
+the table cell height and width -->
+            </table>
+        </div>
+    </main>
+    
+</body>
+</html>

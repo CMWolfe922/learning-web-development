@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Stock Market and Day Trading Research</title>
+</head>
+
+<body>
+    <!-- Creating the navigation links for the top of the page. -->
+    <div class="main-nav-links">
+        <nav>
+            <a href="main.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="learningstyles.html">Learning Styles</a>
+        </nav>
+    </div>
+
+    <div class="logo">
+        <!-- <a href="main.html"><img src=""></a> THIS IS WHERE THE LOGO IMAGE GOES WITH A LINK TO HOME PAGE -->
+    </div>
+    
+    <hr> <!-- Create line break -->
+    
+    <section class="registration-main">
+        <div class="registration-headers">
+            <h1>Welcome To Your Race Registration!</h1>
+            <h3>Please fill out all of the forms below in order to be processed and accepted. Thank you!</h3>
+        </div>
+
+        <hr> <!-- Create line break -->
+        
+        <div class="registration-form" id="race-registration">
+
+            <!-- Registration form begins here -->
+            <form action="/main"> 
+
+                <!-- div radio button race selection start -->
+                <div class="race-selection">
+                    <p class="radio-btn-race-selector">What Race Did You Choose?</p>
+                    <div class="race-radio-selector">
+                        <input type="radio" name="race" id="5k">
+                        <label for="race">Fun Run 5k</label>
+                    </div>
+                    <div class="race-radio-selector">
+                        <input type="radio" name="race" id="half-marathon">
+                        <label for="race">Half Marathon </label>
+                    </div>
+                    <div class="race-radio-selector">
+                        <input type="radio" name="race" id="full-marathon">
+                        <label for="race">Full Marathon</label>
+                    </div>
+                    <div class="race-radio-selector">
+                        <input type="radio" name="race" id="ultra-marathon">
+                        <label for="race">Ultra Marathon</label>
+                    </div>
+                </div>
+
+                <br> <!-- Create a small break here -->
+
+                <!-- Text box registration form starts here -->
+                <div class="register-form-name-info">
+                    <label for="firstname" >First Name: </label>
+                    <input type="text" name="firstname" value="John/Jane" id="firstname" required minlength="1">
+                    <label for="lastname">Last Name: </label>
+                    <input type="text" name="lastname" value="Doe" id="lastname" required minlength="1">
+                </div>
+
+                <br> <!-- create a break between the name and contact forms -->
+
+                <!-- Registration form contact info -->
+                <div class="register-form-contact-info">
+                    <label for="email-address">Email: </label>
+                    <input type="email" name="contact-info" value="example@email.com" id="email-address" required>
+                    <label for="phone-number">Phone: </label>
+                    <input type="tel" name="contact-info" value="123-456-7890" id="phone-number" required minlength="10" maxlength="12">
+                </div>
+
+                 <br> <!-- Create a small line break for spacing-->
+
+                <div class="age-group-dropdown">
+                    <label for="registration-age-group">Select Your Age Group: </label>
+                        <select name="age-group" id="registration-age-group" required>
+                            <option value="">--Please Choose--</option>
+                            <option value="under 18"></option>
+                            <option value="18 - 30"></option>
+                            <option value="31 - 50"></option>
+                            <option value="51+"></option>
+                        </select>
+                </div>
+
+                <hr> <!-- Create a line break -->
+
+                <div class="form-register-btn">
+                    <button type="button">Register</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

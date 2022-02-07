@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(67, 112, 163, 0.363);
+}
+h1 {
+    text-align: center;
+    text-indent: initial;
+    color: #3f5c8a;
+    font-family: Consolas;
+    background: scroll;
+    background-color: rgb(243, 241, 220);
+    border: 4px solid;
+    border-color: #3f5c8a;
+    border-radius: 13px;
+}
+
+p {
+    font-family: Consolas;
+}
+
+h2 {
+    text-align: center;
+    text-indent: initial;
+    color: #3f5c8a;
+    font-family: Consolas;
+    background: scroll;
+    background-color: lightgray;
+    border: 2px solid;
+    border-color: #3f5c8a;
+}
+
+h3 {
+    text-align: center;
+    text-indent: initial;
+    color: #3f5c8a;
+    font-family: Consolas;
+    background: scroll;
+    background-color: lightgray;
+    border: 2px solid;
+    border-color: #3f5c8a;
+}
+
+h4 {
+    text-align: center;
+    text-indent: initial;
+    color: #3f5c8a;
+    font-family: Consolas;
+    background: scroll;
+    background-color: lightgray;
+    border: 2px solid;
+    border-color: #3f5c8a;    
+}

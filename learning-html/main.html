@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Stock Market Day Trading Technical Indicator Data" content="width=device-width, initial-scale=1.0">
+    <title>Market Data App</title>
+</head>
+
+
+<body>
+    <!-- Create a nav bar elements for switching between pages -->
+    <nav class="main-navbar">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="marketInfo.html">Market Information</a></li>
+            <li><a href="equities.html">Equities</a></li>
+            <li><a href="about.html">Site Information</a></li>
+        </ul>
+    </nav>
+    <!-- Create main with header by using emmet: main>header -->
+
+    <main>
+        <section class="page-header">
+            <header>
+                <h1>MARKET RESEARCH APP</h1><sub>This app is for researching market data.
+                We intend to share data for:</sub>
+            </header>
+        </section>
+
+            <div class="types-of-data">
+                
+                <ul>
+                    <li>Stocks/Equities</li>
+                    <li>Options</li>
+                    <li>Futures</li>
+                </ul>
+                <!-- I need to make the list below show up to the side of the top one.
+                I may need to create a table in order to do that. -->
+                <ul>
+                    <li>Commodities</li>
+                    <li>Crypto Currency</li>
+                    <li>FOREX</li>
+                </ul>
+                
+            <div>
+    </main>
+
+    <section class="tech-company-links">
+        <h3>Top Technology Companies</h3>
+        <p>Below is a list of all the technology companies that we will pay attention to.
+            <!--Below is going to be examples of creating an unordered 
+            list in HTML and then nesting that list with another-->
+        <ul>
+            <li>
+                <h4>FAANG Stocks</h4>
+            </li>
+            <ul>
+                <!--Using the anchor tag, I am going to make each 
+                    fang stock "clickable" and make it to where it 
+                    will bring the user to the yahoo finance page about each
+                    company-->
+                <li><a href="https://finance.yahoo.com/quote/FB/key-statistics?p=FB">Facebook</a></li>
+                <li><a href="https://finance.yahoo.com/quote/AAPL/key-statistics?p=AAPL">Apple</a></li>
+                <li><a href="https://finance.yahoo.com/quote/AMZN/key-statistics?p=AMZN">Amazon</a></li>
+                <li><a href="https://finance.yahoo.com/quote/NFLX/key-statistics?p=NFLX">Netflix</a></li>
+                <li><a href="https://finance.yahoo.com/quote/GOOGL/key-statistics?p=GOOGL">Google</a></li>
+            </ul>
+            <li>
+                <h4>Other Top Technology Companies</h4>
+            </li>
+            <ul>
+                <li><a href="https://finance.yahoo.com/quote/CHWY/key-statistics?p=CHWY">Chewy</a></li>
+                <li><a href="https://finance.yahoo.com/quote/MSFT/key-statistics?p=MSFT">Microsoft</a></li>
+                <li><a href="https://finance.yahoo.com/quote/PANW/key-statistics?p=PANW">Palo Alto Networks</a></li>
+                <li><a href="https://finance.yahoo.com/quote/TSLA/key-statistics?p=TSLA">Tesla</a></li>
+                <li><a href="https://finance.yahoo.com/quote/CRM/key-statistics?p=CRM">Salesforce</a></li>
+            </ul>
+        </ul>
+        </p>
+        <!-- Use alt="" to add text that the screen reader can read about the image -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF09EPPFqhXxWmFF3O7iErvxCk2e4PwNIt_g&usqp=CAU"
+            alt="image of a bull (for bull market) and bear (for bear market) fighting and the bull is winning">
+    </section>
+</body>
+</html>
